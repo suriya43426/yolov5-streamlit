@@ -11,22 +11,22 @@ Deploy [YOLOv5](https://github.com/ultralytics/yolov5/releases/tag/v5.0) detecti
 # 安装依赖
 
 ```
-# 本地安装的话，请将opencv-python-headless改为opencv-python
+# For local installation, please opencv-python-headless 改为opencv-python
 pip install -r requirements.txt
 ```
 
 如果有`GPU`的话，将`torch`替换成`gpu`版本可加速检测
 
-# 运行项目
+# run the project 运行项目
 
 ```
 streamlit run main.py
 ```
 
-**图片检测**
+**การตรวจจับภาพ**
 
 ![streamlit yolov5 image detection](data/images/image.png)
 
-**视频检测**
+**Video detection 视频检测**
 
 ![streamlit yolov5 video detection](data/images/video.png)
